@@ -1,0 +1,154 @@
+nav {
+    width: auto;
+    height: 120px;
+    background-image: url("../images/Frame.png");
+}
+
+.menu {
+    width: 1000px;
+    height: 56px;
+    position: relative;
+    top: 30px;
+    left: 120px;
+
+}
+
+.logo {
+    width: 140px;
+    ;
+    height: 56px;
+    background-color: rgb(181, 54, 162);
+    float: left;
+}
+
+.menu-list {
+    width: 500px;
+    height: 50px;
+    margin: 3px;
+    margin-left: 100px;
+    float: left;
+
+}
+
+.list-link-ul {
+    display: inline;
+
+    color: aliceblue;
+}
+
+.link-button {
+    color: white;
+    float: left;
+    margin-right: 20px;
+}
+
+.link-button-on {
+    width: 8px;
+    height: 8px;
+    border-radius: 30px;
+    background-color: red;
+    margin: 5px;
+    margin-left: 15px;
+}
+
+
+.search {
+    width: 200px;
+    height: 50px;
+    margin: 3px;
+    /* background-color: brown; */
+    float: right;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.input-search {
+    width: 150px;
+    height: 26px;
+    margin: 10px;
+    margin-left: 20px;
+
+    border: none;
+    color: white;
+    border-radius: 15px;
+}
+
+.footer {
+
+    background-color: rgb(245, 240, 240);
+    height: 500px;
+     padding: 30px;
+}
+
+
+
+.logo-with-news {
+    width: 500px;
+    float: left;
+    margin: 20px;
+
+}
+
+.logo-footer {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+.news-mail,
+.footer-news-mail-social-media {
+    margin-top: 40px;
+}
+
+.div2-footer-link-categore-legal-location,
+.quick-links {
+    float: left;
+    margin-right: 20px;
+}
+
+.footer-news-mail-add_email-input {
+    width: 220px;
+    height: 34px;
+    border-radius: 20px;
+    border: 1px solid rgb(126, 126, 239);
+}
+
+.footer-news-mail-add_email-submit {
+    width: 80px;
+    height: 34px;
+    border-radius: 20px;
+    border: 1px solid rgb(126, 126, 239);
+
+}
+
+.footer-news-mail-text,
+.footer-news-mail-add_email-submit,
+.footer-news-mail-add_email-input {
+    color: rgb(126, 126, 239);
+    margin-right: 12px;
+}
+
+.image-social-media {
+    width: 30px;
+    height: 30px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+.quick-links>ul>li {
+    margin: 20px;
+    margin-left: 0px;
+    list-style: none;
+}
+
+
+.div2-footer-location {
+    margin-top: 40px;
+
+}
+.box-background{
+    height: 690px;
+    background-image: url("../images/Frame.png");
+}
