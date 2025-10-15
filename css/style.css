@@ -1,154 +1,127 @@
-nav {
-    width: auto;
-    height: 120px;
+.box_continer {
     background-image: url("../images/Frame.png");
+    width: 1440px;
+    height: 916px;
 }
 
-.menu {
-    width: 1000px;
-    height: 56px;
+.box_hero {
+    width: 1199px;
+    height: 817px;
+    background-color: aliceblue;
     position: relative;
-    top: 30px;
+    top: 40px;
     left: 120px;
-
 }
 
-.logo {
-    width: 140px;
-    ;
+.navbar {
+    width: 1199px;
     height: 56px;
-    background-color: rgb(181, 54, 162);
-    float: left;
-}
-
-.menu-list {
-    width: 500px;
-    height: 50px;
-    margin: 3px;
-    margin-left: 100px;
-    float: left;
-
-}
-
-.list-link-ul {
-    display: inline;
-
-    color: aliceblue;
-}
-
-.link-button {
-    color: white;
-    float: left;
-    margin-right: 20px;
-}
-
-.link-button-on {
-    width: 8px;
-    height: 8px;
-    border-radius: 30px;
     background-color: red;
-    margin: 5px;
-    margin-left: 15px;
+    position: relative;
+    top: 0px;
 }
 
+.div_logo_plus_item {
+    width: 887px;
+    height: 56px;
+    background-color: palegoldenrod;
+    position: relative;
+    top: 0px;
+}
 
-.search {
-    width: 200px;
+.div_logo_plus_item>.logo {
+    width: 142px;
+    height: 56px;
+    background-color: salmon;
+    position: relative;
+    top: 0px;
+}
+.div_logo_plus_item >.item_menu {
+    width: 575px;
+    height: 56px;
+    background-color: gainsboro;
+    position: absolute;
+    top: 0px;
+    left: 312px;
+}
+.div_logo_plus_item >.item_menu>.item {
+    width: 50px;
     height: 50px;
-    margin: 3px;
-    /* background-color: brown; */
-    float: right;
-    border-radius: 10px;
-    border: 1px solid white;
+    background-color: khaki;
 }
 
-.input-search {
-    width: 150px;
-    height: 26px;
-    margin: 10px;
-    margin-left: 20px;
-
-    border: none;
-    color: white;
-    border-radius: 15px;
+.div_search {
+    width: 241px;
+    height: 56px;
+    background-color: palegreen;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
-.footer {
-
-    background-color: rgb(245, 240, 240);
-    height: 500px;
-     padding: 30px;
+.continer_hero {
+    width: 1199px;
+    height: 691px;
+    background-color: green;
+    position: relative;
+    top: 70px;
 }
 
-
-
-.logo-with-news {
-    width: 500px;
-    float: left;
-    margin: 20px;
-
+.continer_hero>.zone_text {
+    width: 499px;
+    height: 625px;
+    background-color: yellow;
+    position: relative;
+    top: 33px;
 }
 
-.logo-footer {
-    width: 200px;
-    height: 200px;
-    background-color: aqua;
+.continer_hero>.zone_text>.div_more_than_medicine {
+    width: 499px;
+    height: 418px;
+    background-color: orange;
+    position: relative;
+    top: 0px;
 }
 
-.news-mail,
-.footer-news-mail-social-media {
-    margin-top: 40px;
+.continer_hero>.zone_text>.div_more_than_medicine>.titre_sur_forme_button {
+    width: 499px;
+    height: 48px;
+    background-color: blue;
+    position: relative;
+    top: 0px;
 }
 
-.div2-footer-link-categore-legal-location,
-.quick-links {
-    float: left;
-    margin-right: 20px;
+.continer_hero>.zone_text>.div_more_than_medicine>.text {
+    width: 499px;
+    height: 234px;
+    background-color: saddlebrown;
+    position: relative;
+    top: 35px;
 }
 
-.footer-news-mail-add_email-input {
-    width: 220px;
-    height: 34px;
-    border-radius: 20px;
-    border: 1px solid rgb(126, 126, 239);
-}
-
-.footer-news-mail-add_email-submit {
-    width: 80px;
-    height: 34px;
-    border-radius: 20px;
-    border: 1px solid rgb(126, 126, 239);
+.continer_hero>.zone_text>.div_more_than_medicine>.div_button_contact_appoi {
+    width: 499px;
+    height: 66px;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 0px;
 
 }
 
-.footer-news-mail-text,
-.footer-news-mail-add_email-submit,
-.footer-news-mail-add_email-input {
-    color: rgb(126, 126, 239);
-    margin-right: 12px;
-}
-
-.image-social-media {
-    width: 30px;
-    height: 30px;
-    background-color: blueviolet;
-    border-radius: 20px;
-    margin-right: 20px;
-    float: left;
-}
-
-.quick-links>ul>li {
-    margin: 20px;
-    margin-left: 0px;
-    list-style: none;
+.continer_hero>.zone_text>.div_open_hours {
+    width: 499px;
+    height: 88px;
+    background-color: violet;
+    position: relative;
+    top: 119px;
 }
 
 
-.div2-footer-location {
-    margin-top: 40px;
-
-}
-.box-background{
-    height: 690px;
-    background-image: url("../images/Frame.png");
+.continer_hero>.image_hero {
+    width: 650px;
+    height: 691px;
+    background-color: yellow;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
