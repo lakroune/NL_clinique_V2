@@ -2,6 +2,7 @@
     background-image: url("../images/Frame.png");
     width: 1440px;
     height: 916px;
+    position: relative;
 }
 
 .box_hero {
@@ -317,9 +318,11 @@
     height: 88px;
     color: rgba(250, 250, 250, 1);
 }
+
 .continer_hero>.zone_text>.div_open_hours>.text_hours>ul {
     list-style: none;
 }
+
 .continer_hero>.zone_text>.div_open_hours>.text_hours>ul>li {
     font-size: 20px;
 }
@@ -336,4 +339,76 @@
 .continer_hero>.image_hero>img {
     width: 650px;
     height: 691px;
+}
+
+.check_doctor {
+    width: 651px;
+    height: 260px;
+    background-color: rgba(250, 250, 250, 1);
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    position: absolute;
+    bottom: 0px;
+    right: 120px;
+}
+.input_form{
+
+}
+
+.input_form>form{
+    width: 591px;
+    height: 205px;  
+    background-color: gold;
+    margin: 30px;
+    position: relative;
+} 
+.input_form>form> .row1{
+    width: 590px;
+    height: 56px;  
+    margin-bottom: 20px;
+    display: flex;
+    background-color: antiquewhite;
+}
+.input_form> form >.row1>.col1{
+    width: 285px;
+    height: 56px; 
+    background-color: #2ECC71;  
+    border: 1px solid;
+    position: absolute;
+    left: 0px;
+    border-radius: 13px;
+    display: flex;
+}
+.input_form> form >.row1>.col1>.image{
+    width: 24px;
+    height: 24px; 
+}
+.input_form> form >.row1>.col1>.text{
+    width: 220px;
+    height: 24px; 
+}
+.input_form> form >.row1>.col1>.select{
+    width: 24px;
+    height: 24px; 
+   
+}
+.input_form> form >.row1>.col2{
+    width: 285px;
+    height: 56px; 
+    background-color: #2ECC71;  
+    border: 1px solid;
+     position: absolute;
+    border-radius: 13px;
+    right:0px;
+}
+
+.input_form> form >.row2>{
+    width: 285px;
+    height: 56px; 
+    background-color: #2ECC71;  
+    border: 1px solid;
+     position: absolute;
+    border-radius: 13px;
+    right:0px;
 }
