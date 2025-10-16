@@ -1,0 +1,128 @@
+.doctors {
+    height: 1500px;
+    background-color: white;
+}
+
+.fream_doctors {
+    height: 1300px;
+    width: 1200px;
+    /* background-color: red; */
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+
+.title_our_doctors {
+    width: 235px;
+    height: 48px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(94, 224, 136, 1);
+    border: 2px solid #2ECC71;
+    position: relative;
+    top: 0px;
+    border-radius: 30px;
+    border-bottom-right-radius: 0px;
+    text-align: center;
+    justify-self: center;
+}
+
+.title_our_doctors_titre {
+    width: 285px;
+    height: 140px;
+    position: relative;
+    top: 20px;
+    border-radius: 30px;
+    border-bottom-right-radius: 0px;
+    text-align: center;
+    justify-self: center;
+    font-family: IBM Plex Sans;
+    font-size: 40px;
+    color: rgba(52, 152, 219, 1);
+    font-weight: bold;
+}
+
+.continer_doctors {
+    width: 1170px;
+    height: 1170px;
+    position: relative;
+    left: 16px;
+   
+}
+
+.continer_doctors_rows {
+    width: 1170px;
+    height: 560px;
+    position: relative;
+    top: 0px;
+    /* background-color: yellow; */
+    display: flex;
+}
+
+.continer_doctors_cols {
+    width: 360px;
+    height: 520px;
+    position: relative;
+    background-color: rgba(245, 248, 250, 1);
+    border-radius: 20px;
+    margin:15px;
+
+}
+
+.continer_doctor_images{
+    position: relative;
+    top: 20px;
+    justify-self: center;
+}
+.specialite{
+    position: relative;
+    top: 20px;
+}
+.specialite_doctors {
+    justify-self: center;
+    font-family: Heebo;
+    font-size: 15px;
+    color: rgba(255, 111, 97, 1);
+    padding: 10px;
+
+}
+
+.experience_doctors {
+    width: 260px;
+    justify-self: center;
+    font-family: Heebo;
+    font-size: 15px;
+    color:rgba(91, 91, 91, 1);
+    margin: 10px;
+    text-align: center;
+
+}
+.button
+{
+     height: 52px;
+    width: 230px;
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    font-family: Heebo;
+    font-size: 15px;
+    background-color: #FF6F61;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+text-align: center;
+    justify-self: center;
+}
+.button>.image{
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 200px;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+}
+.button>p{
+    position: relative;
+  
+    left:20px;
+}
