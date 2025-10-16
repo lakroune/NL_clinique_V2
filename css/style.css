@@ -490,3 +490,28 @@
     left: 150px;
 
 }
+.sponsor{
+    width: 1440px;
+    height: 335px;
+    background-color: #2ECC71;
+}
+.sponsor>div{
+    width: 1199px;
+    height: 133px;
+    background-color:yellow;
+    position: relative;
+    top: 101px;
+    left: 121px;
+    display: flex;
+   
+}
+.sponsor>div>.item{
+    width: 217px;
+    height: 133px;
+    background-color:red;
+    margin-right: 110px;
+}
+.sponsor>div>.margin_zero{
+
+    margin-right: 0px;
+}
