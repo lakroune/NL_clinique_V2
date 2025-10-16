@@ -493,12 +493,11 @@
 .sponsor{
     width: 1440px;
     height: 335px;
-    background-color: #2ECC71;
+    background-color: #FFF;
 }
 .sponsor>div{
     width: 1199px;
     height: 133px;
-    background-color:yellow;
     position: relative;
     top: 101px;
     left: 121px;
@@ -508,10 +507,30 @@
 .sponsor>div>.item{
     width: 217px;
     height: 133px;
-    background-color:red;
+   
     margin-right: 110px;
 }
 .sponsor>div>.margin_zero{
 
     margin-right: 0px;
+}
+.sponsor>div>.item>.statistique_nb{
+    width: 217px;
+    height: 94px;
+    
+    font-family: IBM Plex Sans;
+    color: #3498DB;
+    font-weight: bold;
+    font-size: 72px;
+   
+}
+.sponsor>div>.item>.text{
+    width: 217px;
+    height: 29px;
+    font-family: Heebo;
+    font-weight:Regular;
+    color: rgba(49, 49, 49, 1);
+    font-size: 20px;
+     
+    
 }
