@@ -46,7 +46,7 @@
     height: 1170px;
     position: relative;
     left: 16px;
-   
+
 }
 
 .continer_doctors_rows {
@@ -64,19 +64,21 @@
     position: relative;
     background-color: rgba(245, 248, 250, 1);
     border-radius: 20px;
-    margin:15px;
+    margin: 15px;
 
 }
 
-.continer_doctor_images{
+.continer_doctor_images {
     position: relative;
     top: 20px;
     justify-self: center;
 }
-.specialite{
+
+.specialite {
     position: relative;
     top: 20px;
 }
+
 .specialite_doctors {
     justify-self: center;
     font-family: Heebo;
@@ -91,14 +93,14 @@
     justify-self: center;
     font-family: Heebo;
     font-size: 15px;
-    color:rgba(91, 91, 91, 1);
+    color: rgba(91, 91, 91, 1);
     margin: 10px;
     text-align: center;
 
 }
-.button
-{
-     height: 52px;
+
+.button {
+    height: 52px;
     width: 230px;
     font-size: 20px;
     color: white;
@@ -109,10 +111,11 @@
     border-radius: 20px;
     display: flex;
     position: relative;
-text-align: center;
+    text-align: center;
     justify-self: center;
 }
-.button>.image{
+
+.button>.image {
     width: 24px;
     height: 24px;
     background-color: white;
@@ -121,8 +124,93 @@ text-align: center;
     top: 12px;
     right: 20px;
 }
-.button>p{
+
+.button>p {
     position: relative;
-  
-    left:20px;
+
+    left: 20px;
+}
+
+
+.button2 {
+    height: 52px;
+    width: 230px;
+    font-size: 20px;
+    color: rgba(38, 119, 188, 1);
+    margin-left: 20px;
+    font-family: Heebo;
+    font-size: 15px;
+    background-color: #E3FAFF;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+.button2>.image {
+    width: 24px;
+    height: 24px;
+    background-color: rgba(38, 119, 188, 1);
+    border-radius: 200px;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+}
+
+.button2>p {
+    position: relative;
+    left: 20px;
+}
+
+
+.frame_Book_Book_Appointment {
+    height: 500px;
+   
+    display: flex;
+}
+
+.continer1 {
+    width: 800px;
+    background-image: url("../images/Rectangle\ 96.png");
+    position: relative;
+}
+
+.continer1>.text {
+    position: absolute;
+    top: 100px;
+    width: 590px;
+    height: 250px;
+    justify-self: center;
+
+}
+
+.continer1>.text>h1 {
+    width: 500px;
+    height: 100px;
+    color: rgba(250, 250, 250, 1);
+    justify-self: center;
+    font-size: 42px;
+    font-family: IBM Plex Sans;
+
+}
+
+.continer1>.text>p {
+    width: 520px;
+
+    color: rgba(250, 250, 250, 1);
+    justify-self: center;
+    font-size: 18px;
+    font-family: Heebo;
+
+}
+
+.continer1>.button2 {
+    position: absolute;
+    bottom: 30px;
+   
+}
+
+.continer2>img {
+
+    height: 500px;
 }

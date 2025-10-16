@@ -1,24 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Heebo:100,200,300,regular,500,600,700,800,900);
+
 .box_continer {
     background-image: url("../images/Frame.png");
-    width: 1440px;
+    /* width: 100%; */
     height: 916px;
     position: relative;
 }
+
 .box_continer_1 {
     background-image: url("../images/Frame.png");
-    width: 1440px;
+    /* width: 1440px; */
     height: 130px;
     position: relative;
     top: 0px;
 }
 
 .box_hero {
-    width: 1199px;
+    /* width: 1199px; */
     height: 817px;
     /* background-color: aliceblue; */
     position: relative;
     top: 40px;
-    left: 120px;
+    left: 10px;
 }
 
 .navbar {
@@ -71,6 +75,7 @@
 .div_logo_plus_item>.item_menu>.item>.page {
 
     /* background-color: firebrick; */
+    font-family: Heebo;
     width: 75px;
     height: 20px;
     position: relative;
@@ -78,6 +83,7 @@
     text-align: center;
     color: rgba(250, 250, 250, 1);
 }
+
 .div_logo_plus_item>.item_menu>.item>.page>a {
 
     color: rgba(250, 250, 250, 1);
@@ -123,6 +129,7 @@
     border: none;
     border-radius: 20px;
     color: rgba(250, 250, 250, 1);
+    font-family: Heebo;
 
 }
 
@@ -145,6 +152,7 @@
     /* background-color: green; */
     position: relative;
     top: 70px;
+    left: 30px;
 }
 
 .continer_hero>.zone_text {
@@ -181,6 +189,7 @@
     border-radius: 30px;
     border-bottom-right-radius: 0px;
     text-align: center;
+    font-family: Heebo;
 
 }
 
@@ -198,9 +207,10 @@
     height: 150px;
     /* background-color: yellowgreen; */
     color: rgba(250, 250, 250, 1);
-    ;
+    font-family: IBM Plex Sans;
+font-weight: bold;
 
-    font-size: 50px;
+    font-size: 52px;
 }
 
 .continer_hero>.zone_text>.div_more_than_medicine>.text>.description {
@@ -210,8 +220,13 @@
     position: absolute;
     bottom: 0px;
     color: white;
+    font-family: Heebo;
+    font-size: 24px;
+    font-weight: bold;
 }
-
+p{
+     font-family: Heebo;
+}
 .continer_hero>.zone_text>.div_more_than_medicine>.div_button_contact_appoi {
     width: 499px;
     height: 66px;
@@ -229,6 +244,7 @@
     border-radius: 30px;
     color: rgba(250, 250, 250, 1);
     text-align: center;
+     font-family: Heebo;
 }
 
 .continer_hero>.zone_text>.div_more_than_medicine>.div_button_contact_appoi>.book_appoi_btn>.btn {
@@ -245,6 +261,7 @@
     position: relative;
     top: 16px;
     text-align: center;
+     font-family: Heebo;
 
 }
 
@@ -267,7 +284,7 @@
     background-color: rgba(250, 250, 250, 1);
     border-radius: 30px;
     position: relative;
-    
+
 
 
 }
@@ -299,6 +316,7 @@
     position: relative;
     top: 18px;
     right: 1px;
+     font-family: Heebo;
 
 }
 
@@ -329,6 +347,7 @@
     width: 392px;
     height: 88px;
     color: rgba(250, 250, 250, 1);
+     font-family: Heebo;
 }
 
 .continer_hero>.zone_text>.div_open_hours>.text_hours>ul {
@@ -337,6 +356,7 @@
 
 .continer_hero>.zone_text>.div_open_hours>.text_hours>ul>li {
     font-size: 20px;
+     font-family: Heebo;
 }
 
 .continer_hero>.image_hero {
@@ -362,7 +382,7 @@
     border-bottom-right-radius: 0px;
     position: absolute;
     bottom: 0px;
-    right: 120px;
+    right: 90px;
 }
 
 
@@ -410,7 +430,8 @@
     color: rgba(250, 250, 250, 1);
 }
 
-.input_form>form>.row1>.col1>.select>select,.input_form>form>.row1>.col1>.select>input {
+.input_form>form>.row1>.col1>.select>select,
+.input_form>form>.row1>.col1>.select>input {
     width: 224px;
     height: 24px;
     text-align: center;
@@ -482,52 +503,302 @@
 .input_form>form>.row2>input {
     width: 285px;
     height: 56px;
-    background-color:  rgba(255, 111, 97, 1);
-     color: rgba(250, 250, 250, 1);
+    background-color: rgba(255, 111, 97, 1);
+    color: rgba(250, 250, 250, 1);
     border-radius: 10px;
     border: 0px;
     position: relative;
     left: 150px;
 
 }
-.sponsor{
-    width: 1440px;
+
+.statistique {
+    /* width: 1440px; */
     height: 335px;
     background-color: #FFF;
 }
-.sponsor>div{
+
+.statistique>div {
     width: 1199px;
     height: 133px;
     position: relative;
     top: 101px;
-    left: 121px;
+    left: 30px;
     display: flex;
-   
+    /* background-color: rebeccapurple; */
+
 }
-.sponsor>div>.item{
+
+.statistique>div>.item {
     width: 217px;
     height: 133px;
-   
-    margin-right: 110px;
+
+    margin-right: 90px;
 }
-.sponsor>div>.margin_zero{
+
+.statistique>div>.margin_zero {
 
     margin-right: 0px;
 }
-.sponsor>div>.item>.statistique_nb{
+
+.statistique>div>.item>.statistique_nb {
     width: 217px;
     height: 94px;
-    
+
     font-family: IBM Plex Sans;
     color: #3498DB;
     font-weight: bold;
     font-size: 72px;
 }
-.sponsor>div>.item>.text{
+
+.statistique>div>.item>.text {
     width: 217px;
     height: 29px;
     font-family: Heebo;
-    font-weight:Regular;
+    font-weight: Regular;
     color: rgba(49, 49, 49, 1);
     font-size: 20px;
+}
+
+.about_us {
+    background-image: url("../images/Frame\ 1000001998.png");
+    height: 883px;
+    position: relative;
+}
+
+.about_us>.continer {
+    height: 739px;
+    display: flex;
+    position: absolute;
+    left: 60px;
+    top: 80px;
+
+}
+
+.about_us>.continer>.div1_images {
+    height: 683px;
+    width: 550px;
+}
+
+.about_us>.continer>.div1_images>.div1 {
+    height: 326;
+    background-color: ghostwhite;
+}
+
+.about_us>.continer>.div1_images>.div2 {
+    position: relative;
+    top: 20px;
+    height: 326;
+    position: relative;
+    border-radius: 30px;
+
+}
+
+.about_us>.continer>.div1_images>.div2>.lire {
+    height: 91px;
+    width: 91px;
+    background-color: white;
+    border-radius: 60px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    text-align: center;
+}
+
+.about_us>.continer>.div1_images>.div2>.lire>img {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 20%;
+    text-align: center;
+
+}
+
+.about_us>.continer>.div1_images>.div2>.text {
+    height: 138px;
+    width: 241px;
+
+    text-align: center;
+    background-color: rgba(94, 224, 136, 1);
+    position: absolute;
+    top: 72px;
+    right: 48px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+}
+
+.about_us>.continer>.div1_images>.div2>.text>.text1 {
+    height: 66px;
+    color: rgba(250, 250, 250, 1);
+    font-family: IBM Plex Sans;
+    font-size: 38px;
+    font-weight: bold;
+    justify-self: left;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.about_us>.continer>.div1_images>.div2>.text>.text2 {
+    color: rgba(250, 250, 250, 1);
+    font-family: Heebo;
+    font-size: 18px;
+    justify-self: left;
+    position: relative;
+    left: 20px;
+    top: 10px;
+
+}
+
+.about_us>.continer>.div2_text {
+    height: 683px;
+    /* background-color: red; */
+    width: 550px;
+    position: relative;
+    left: 30px;
+}
+
+
+.about_us>.continer>.div2_text>.title {
+    height: 30px;
+    background-color: gainsboro;
+    width: 141px;
+    background-color: rgba(94, 224, 136, 1);
+    border: 2px solid rgba(46, 204, 113, 1);
+    color: rgba(250, 250, 250, 1);
+    border-radius: 20px;
+    border-bottom-right-radius: 0px;
+    position: relative;
+    left: 30px;
+    top: 10px;
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.about_us>.continer>.div2_text>.text {
+    height: 260px;
+
+    width: 550px;
+    /* background-color: darkblue; */
+    /* position: relative; */
+
+}
+
+.about_us>.continer>.div2_text>.text>h1 {
+    width: 550px;
+    height: 124px;
+    /* background-color: gainsboro; */
+    font-family: IBM Plex Sans;
+    color: #3498DB;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.about_us>.continer>.div2_text>.text>p {
+    width: 550px;
+
+    /* background-color: gainsboro; */
+    font-family: heebo;
+    color: rgba(49, 49, 49, 1);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.about_us>.continer>.div2_text>.text2 {
+    width: 520px;
+    /* background-color: rebeccapurple; */
+    font-family: heebo;
+    color: rgba(49, 49, 49, 1);
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid rgba(225, 225, 225, 1);
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+    
+    height: 200px;
+  
+
+}
+
+.about_us>.continer>.div2_text>.text2>.description {
+
+    font-family: heebo;
+    color: rgba(49, 49, 49, 1);
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    top: 40px
+    ;
+    left: 20px;
+}
+
+.about_us>.continer>.div2_text>.image1 {
+
+
+    font-family: heebo;
+    color: rgba(49, 49, 49, 1);
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 350px;
+
+}
+
+.about_us>.continer>.div2_text>.text2>.text_image {
+    height: 52px;
+    width: 330px;
+    font-size: 20px;
+    position: relative;
+    top: 55px;
+    left: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+.about_us>.continer>.div2_text>.text2>.text_image>.text {
+    height: 52px;
+    width: 330px;
+    font-size: 20px;
+   color: rgba(52, 152, 219, 1);
+    margin-left: 20px;
+    font-family: Heebo;
+    font-size: 19px;
+}
+
+
+.about_us>.continer>.div2_text>a>.button   {
+    height: 52px;
+    width: 230px;
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    font-family: Heebo;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(219, 71, 70, 1);
+    border-radius: 20px;
+    display: flex;
+   
+}
+
+.about_us>.continer>.div2_text>a>.button>div   {
+    height: 24px;
+    width: 24px;
+    border-radius: 200px;
+    text-align: center;
+   background-color: white;
+   position: absolute;
+   right: 30px;
+   top: 15px;
+}
+
+.about_us>.continer>.div2_text>a>.button>p   {
+    
+ 
+   position: absolute;
+   left: 40px;
 }
