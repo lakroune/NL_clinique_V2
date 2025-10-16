@@ -165,7 +165,7 @@
 
 .frame_Book_Book_Appointment {
     height: 500px;
-   
+
     display: flex;
 }
 
@@ -204,13 +204,203 @@
 
 }
 
-.continer1>.button2 {
+.continer1>a>.button2 {
     position: absolute;
     bottom: 30px;
-   
+
 }
 
 .continer2>img {
 
     height: 500px;
 }
+
+
+
+
+
+
+
+
+
+.services {
+    height: 1500px;
+    background-color: white;
+}
+
+.fream_services {
+    height: 1300px;
+    width: 1200px;
+    background-color:  rgba(245, 248, 250, 1);
+    position: relative;
+    left: 20px;
+    top: 40px;
+    background-color: #F4F8FB;
+    border-radius: 30px;
+}
+
+.title_our_services {
+    width: 181px;
+    height: 48px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(94, 224, 136, 1);
+    border: 2px solid #2ECC71;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border-radius: 30px;
+    border-bottom-right-radius: 0px;
+    text-align: center;
+    
+    
+}
+
+
+.title_our_services_titre{
+    display: flex;
+    position: relative;
+    top: 50px;
+}
+.title_our_services_titre>.div1 {
+    width: 500px;
+    height: 140px;
+    font-family: IBM Plex Sans;
+    font-size: 34px;
+    color: rgba(52, 152, 219, 1);
+    font-weight: bold;
+     position: relative;
+    top: 20px;
+    left: 40px;
+
+}
+
+.title_our_services_titre>.div2 {
+   width: 530px;
+    height: 140px;
+    font-family: heebo;
+    font-size: 19px;
+    color: rgba(91, 91, 91, 1);
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    text-align: right;
+}
+
+.continer_serivces {
+    width: 1170px;
+    height: 980px;
+    position: relative;
+    top: 30px;
+    left: 16px;
+   
+
+}
+
+.continer_services_rows {
+    width: 1170px;
+    height: 450px;
+    position: relative;
+    top: 20px;
+    display: flex;
+}
+
+.continer_services_cols {
+    width: 360px;
+    height: 370px;
+    position: relative;
+    background-color: white;
+    border-radius: 30px;
+    margin: 15px;
+
+}
+
+.continer_services_images {
+    width: 360px;
+    height:75px;
+    display: flex;
+    position: relative;
+    top: 20px;
+}
+
+
+.continer_services_images>img {
+  position: relative;
+  left: 20px;
+  top: 10px;
+    
+}
+.continer_services_images >div {
+    
+    position: absolute;
+    right: 20px;
+     top: 10px;
+     font-family: IBM Plex Sans;
+    font-size: 65px;
+    color: rgba(214, 246, 253, 1);
+    font-weight: bold;
+}
+
+.specialit_service{
+   
+
+}
+.specialit_service>.div1{
+    
+    height: 90px;
+    font-family: IBM Plex Sans;
+    font-size: 34px;
+    color: rgba(52, 152, 219, 1);
+    font-weight: bold;
+     position: relative;
+    left: 30px;
+    top: 50px;
+}
+.specialit_service>.div2{
+    height: 120px;
+     font-family: heebo;
+    font-size: 19px;
+    color: rgba(91, 91, 91, 1);
+    font-size: 17px; 
+    font-weight: bold;
+ position: relative;
+ top: 20px;
+ left: 10px;
+}
+
+.button_service_about{
+     height: 48px;
+    width: 180px;
+    font-size: 20px;
+    color:  #FF6F61;
+    font-family: Heebo;
+    font-size: 15px;
+    border:1px solid #FF6F61;
+    border-radius: 20px;
+    text-align: center;
+   position: relative;
+   left: 20px;
+   display: flex;
+   text-align: center;
+}
+
+.button_service_about>div{
+     height: 24px;
+    width: 24px;
+   position: absolute;
+   right: 30px;
+    top: 12px;
+}
+.button_service_about>P{
+   position: absolute;
+   left: 30px;
+}
+
+ 
+ 
+ 
+ 
+
+ 
+
+ 
