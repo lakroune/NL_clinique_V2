@@ -25,7 +25,6 @@ Il met en avant la qualité des soins, l’expérience des docteurs, et facilite
 ├── 📄 about.html             → Page “About”
 ├── 📄 doctors.html           → Page “Doctors”
 ├── 📄 services.html          → Page “Services”
-├── 📄 pricing.html           → Page “Pricing”
 ├── 📄 contact.html           → Page “Contact / Appointment”
 ├── 📁 images/                → Contient toutes les ressources du site
 ├── 📁 css/                   → Styles généraux du site
