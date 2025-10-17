@@ -187,19 +187,22 @@
 
 .frame_Book_Book_Appointment {
     height: 500px;
-
     display: flex;
 }
 
 .continer1 {
     width: 800px;
-    background-image: url("../images/Rectangle\ 96.png");
+    height: 460px;
+    background-image: url("../images/Rectangle-96.png");
     position: relative;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
 }
 
 .continer1>.text {
     position: absolute;
     top: 100px;
+    left: 20px;
     width: 590px;
     height: 250px;
     justify-self: center;
@@ -228,13 +231,15 @@
 
 .continer1>a>.button2 {
     position: absolute;
-    bottom: 30px;
+    bottom: 35px;
+    left: 30px;
 
 }
 
 .continer2>img {
-
-    height: 500px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 460px;
 }
 
 
@@ -437,11 +442,11 @@ a {
 .fream_pick_plan {
     height: 1300px;
     width: 1200px;
-    background-color: rgba(245, 248, 250, 1);
+    /* background-color: rgba(245, 248, 250, 1); */
     position: relative;
     left: 20px;
     top: 40px;
-    background-color: #F4F8FB;
+    /* background-color: #F4F8FB; */
     border-radius: 30px;
 }
 
@@ -703,7 +708,7 @@ a {
 
 .fream_book_appoi {
     background-color: white;
-     height: 920px;
+    height: 920px;
     width: 1140px;
     position: relative;
     top: 30px;
@@ -711,11 +716,12 @@ a {
     border-radius: 20px;
 }
 
-.box{
+.box {
     position: relative;
     top: 20px;
     left: 30px;
 }
+
 .book_appoi_title {
     width: 211px;
     height: 48px;
@@ -723,7 +729,8 @@ a {
     background-color: rgba(94, 224, 136, 1);
     border: 2px solid #2ECC71;
     position: relative;
-    font-family: IBM Plex Sans;;
+    font-family: IBM Plex Sans;
+    ;
     top: 50px;
     left: 50px;
     border-radius: 30px;
@@ -733,7 +740,7 @@ a {
 }
 
 .book_appoi_title2 {
-    
+
     height: 140px;
     font-family: IBM Plex Sans;
     font-size: 36px;
@@ -743,47 +750,67 @@ a {
     top: 50px;
     left: 50px;
 }
-.fream_input{
-      
+
+.fream_input {
+
     display: flex;
 }
-.fream_input_cols{
+
+.fream_input_cols {
     width: 530px;
-   
+
     margin: 5px;
 }
-.fream_input_cols>p{
+
+.fream_input_cols>p {
     width: 200px;
     font-family: heebo;
     position: relative;
     left: 10px;
-   
+
     height: 30px;
 }
-.fream_input_cols>input ,.fream_input_cols>select{
-    width: 500px;
+
+.fream_input_cols>input,
+.fream_input_cols>select,
+.fream_input_cols>select>option {
+    width: 440px;
     font-family: heebo;
     height: 54px;
     border-radius: 20px;
     border: 1px solid rgba(150, 150, 150, 1);
-}.textarea{
+    padding: 0 20px;
+}
+.fream_input_cols>select{
+    width: 480px;
+    font-family: heebo;
+    height: 54px;
+    border-radius: 20px;
+    border: 1px solid rgba(150, 150, 150, 1);
+    padding: 0 20px;
+}
+.textarea {
     width: 1040px;
-   
+
     height: 200px;
 
 }
-.textarea>textarea{
-    width: 1040px;
+
+.textarea>textarea {
+    width: 999px;
     font-family: heebo;
-    height: 80px;
+    height: 100px;
     border-radius: 20px;
     border: 1px solid rgba(150, 150, 150, 1);
-}.textarea>p{
+
+}
+
+.textarea>p {
     width: 200px;
     font-family: heebo;
     position: relative;
     left: 10px;
-    
+
     height: 60px;
 }
 
@@ -791,7 +818,7 @@ a {
 
 .button_bool_appoi {
     height: 48px;
-     width: 1040px;
+    width: 1040px;
     font-size: 20px;
     color: white;
     font-family: Heebo;
@@ -823,18 +850,18 @@ a {
 .footer {
 
     background-color: rgba(245, 248, 250, 1);
-    height: 500px;
+    height: 700px;
     display: grid;
     grid-template-columns: 50% 50%;
-   
+
 }
 
 
 .logo-with-news {
-    height: 500px;
+    height: 600px;
     display: grid;
-    grid-template-rows: 50% 40% 10%;
-     margin-left: 30px;
+    grid-template-rows: 55% 40% auto;
+    margin-left: 30px;
 }
 
 .news-mail {
@@ -855,7 +882,9 @@ a {
     border-radius: 20px;
     display: flex;
 }
-.image-social-media>a ,.image-social-media>a>img{
+
+.image-social-media>a,
+.image-social-media>a>img {
     width: 30px;
     height: 30px;
     border-radius: 20px;
@@ -874,11 +903,11 @@ a {
 }
 
 .footer-news-mail-add_email-input {
-    
+
     width: 280px;
     height: 42px;
     border-radius: 30px;
-    border: 1px solid  rgba(38, 119, 188, 1);  
+    border: 1px solid rgba(38, 119, 188, 1);
     color: rgba(150, 150, 150, 1);
 
 }
@@ -887,9 +916,9 @@ a {
     width: 100px;
     height: 42px;
     border-radius: 30px;
-    background-color:  rgba(245, 248, 250, 1);
-    border: 1px solid rgba(38, 119, 188, 1);  
-     color: rgba(38, 119, 188, 1);  
+    background-color: rgba(245, 248, 250, 1);
+    border: 1px solid rgba(38, 119, 188, 1);
+    color: rgba(38, 119, 188, 1);
 }
 
 .footer-news-mail-text {
@@ -900,14 +929,14 @@ a {
 }
 
 .div2-footer-link-categore-legal-location {
-   
-    height: 500px;
+
+    height: 600px;
     display: grid;
     grid-template-rows: 50% auto;
 }
 
 .div2-footer-link-categore_legal {
-   
+
     display: grid;
     grid-template-columns: repeat(3, auto);
 }
@@ -921,8 +950,10 @@ a {
     font-family: heebo;
     font-size: 16px;
 }
+
 .quick-links>ul>li {
-height: 36px;}
+    height: 36px;
+}
 
 .quick-links>ul>li>h3 {
     color: rgba(99, 187, 233, 1);
@@ -930,7 +961,7 @@ height: 36px;}
     font-size: 24px;
 }
 
- 
+
 
 
 .div2-footer-location>ul {
@@ -948,43 +979,52 @@ height: 36px;}
     font-family: heebo;
     font-size: 24px;
 }
+
 .div2-footer-location>ul>li>p {
-    color:rgba(150, 150, 150, 1);
+    color: rgba(150, 150, 150, 1);
     font-family: heebo;
     font-size: 16px;
     width: 260px;
 }
 
 
-.continer_doctor_plan{
+.continer_doctor_plan {
     display: grid;
-    grid-template-columns:repeat(3,auto);
-    grid-template-rows: repeat(2,auto);
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
     height: 960px;
     justify-self: auto;
 }
-.continer_doctor_plan>div{
+
+.continer_doctor_plan>div {
     height: 300px;
 }
 
-.title_pick_plan_titre{
+.title_pick_plan_titre {
     height: 200px;
 }
-.masque{opacity: 0;}
-.display{
+
+.masque {
+    opacity: 0;
+}
+
+.display {
     display: none;
 }
-.height{
+
+.height {
 
     height: 650px;
 }
-.height1{
+
+.height1 {
 
     height: 800px;
 }
-.titre_sup{
-    
-    font-family:  IBM Plex Sans;
+
+.titre_sup {
+
+    font-family: IBM Plex Sans;
     font-size: 36px;
     color: white;
     font-weight: bold;
