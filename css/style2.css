@@ -13,17 +13,39 @@
 }
 
 .title_our_doctors {
+
+    width: 235px;
+    height: 48px;
+
+    position: relative;
+    font-size: 20px;
     width: 235px;
     height: 48px;
     color: rgba(255, 255, 255, 1);
     background-color: rgba(94, 224, 136, 1);
     border: 2px solid #2ECC71;
-    position: relative;
-    top: 0px;
+    top: 6px;
+    font-family: heebo;
+    font-size: 23px;
     border-radius: 30px;
     border-bottom-right-radius: 0px;
     text-align: center;
     justify-self: center;
+}
+
+.title_our_doctors>p {
+
+
+    position: absolute;
+    font-size: 20px;
+    font-family: heebo;
+    top: -10px;
+    justify-self: center;
+    font-family: heebo;
+    font-size: 23px;
+    border-radius: 30px;
+    border-bottom-right-radius: 0px;
+
 }
 
 .title_our_doctors_titre {
@@ -231,7 +253,7 @@
 .fream_services {
     height: 1300px;
     width: 1200px;
-    background-color:  rgba(245, 248, 250, 1);
+    background-color: rgba(245, 248, 250, 1);
     position: relative;
     left: 20px;
     top: 40px;
@@ -251,16 +273,17 @@
     border-radius: 30px;
     border-bottom-right-radius: 0px;
     text-align: center;
-    
-    
+
+
 }
 
 
-.title_our_services_titre{
+.title_our_services_titre {
     display: flex;
     position: relative;
     top: 50px;
 }
+
 .title_our_services_titre>.div1 {
     width: 500px;
     height: 140px;
@@ -268,14 +291,14 @@
     font-size: 34px;
     color: rgba(52, 152, 219, 1);
     font-weight: bold;
-     position: relative;
+    position: relative;
     top: 20px;
     left: 40px;
 
 }
 
 .title_our_services_titre>.div2 {
-   width: 530px;
+    width: 530px;
     height: 140px;
     font-family: heebo;
     font-size: 19px;
@@ -293,7 +316,7 @@
     position: relative;
     top: 30px;
     left: 16px;
-   
+
 
 }
 
@@ -317,7 +340,7 @@
 
 .continer_services_images {
     width: 360px;
-    height:75px;
+    height: 75px;
     display: flex;
     position: relative;
     top: 20px;
@@ -325,82 +348,340 @@
 
 
 .continer_services_images>img {
-  position: relative;
-  left: 20px;
-  top: 10px;
-    
+    position: relative;
+    left: 20px;
+    top: 10px;
+
 }
-.continer_services_images >div {
-    
+
+.continer_services_images>div {
+
     position: absolute;
     right: 20px;
-     top: 10px;
-     font-family: IBM Plex Sans;
+    top: 10px;
+    font-family: IBM Plex Sans;
     font-size: 65px;
     color: rgba(214, 246, 253, 1);
     font-weight: bold;
 }
 
-.specialit_service{
-   
+.specialit_service {}
 
-}
-.specialit_service>.div1{
-    
+.specialit_service>.div1 {
+
     height: 90px;
     font-family: IBM Plex Sans;
     font-size: 34px;
     color: rgba(52, 152, 219, 1);
     font-weight: bold;
-     position: relative;
+    position: relative;
     left: 30px;
     top: 50px;
 }
-.specialit_service>.div2{
+
+.specialit_service>.div2 {
     height: 120px;
-     font-family: heebo;
+    font-family: heebo;
     font-size: 19px;
     color: rgba(91, 91, 91, 1);
-    font-size: 17px; 
+    font-size: 17px;
     font-weight: bold;
- position: relative;
- top: 20px;
- left: 10px;
+    position: relative;
+    top: 20px;
+    left: 10px;
 }
 
-.button_service_about{
-     height: 48px;
+.button_service_about {
+    height: 48px;
     width: 180px;
     font-size: 20px;
-    color:  #FF6F61;
+    color: #FF6F61;
     font-family: Heebo;
     font-size: 15px;
-    border:1px solid #FF6F61;
+    border: 1px solid #FF6F61;
     border-radius: 20px;
     text-align: center;
-   position: relative;
-   left: 20px;
-   display: flex;
-   text-align: center;
+    position: relative;
+    left: 20px;
+    display: flex;
+    text-align: center;
 }
 
-.button_service_about>div{
-     height: 24px;
+.button_service_about>div {
+    height: 24px;
     width: 24px;
-   position: absolute;
-   right: 30px;
+    position: absolute;
+    right: 30px;
     top: 12px;
 }
-.button_service_about>P{
-   position: absolute;
-   left: 30px;
+
+.button_service_about>P {
+    position: absolute;
+    left: 30px;
 }
 
- 
- 
- 
- 
+a {
+    text-decoration: none;
+}
 
- 
 
- 
+
+
+
+
+.pick_plan {
+    height: 1500px;
+    background-color: white;
+}
+
+.fream_pick_plan {
+    height: 1300px;
+    width: 1200px;
+    background-color: rgba(245, 248, 250, 1);
+    position: relative;
+    left: 20px;
+    top: 40px;
+    background-color: #F4F8FB;
+    border-radius: 30px;
+}
+
+.title_pick_plan {
+    width: 181px;
+    height: 48px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(94, 224, 136, 1);
+    border: 2px solid #2ECC71;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border-radius: 30px;
+    border-bottom-right-radius: 0px;
+    text-align: center;
+
+
+}
+
+
+.title_pick_plan_titre {
+    display: flex;
+    position: relative;
+    top: 50px;
+}
+
+.title_pick_plan_titre>.div1 {
+    width: 500px;
+    height: 140px;
+    font-family: IBM Plex Sans;
+    font-size: 36px;
+    color: rgba(52, 152, 219, 1);
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+
+
+.title_pick_plan_titre>.div2 {
+    width: 530px;
+    height: 140px;
+    font-family: heebo;
+    font-size: 19px;
+    color: rgba(91, 91, 91, 1);
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    text-align: right;
+}
+
+.continer_pick_plan {
+    width: 1170px;
+    height: 980px;
+    position: relative;
+    top: 30px;
+    left: 16px;
+
+
+}
+
+.continer_pick_plan_rows {
+    width: 1170px;
+    /* height: 450px; */
+    position: relative;
+    top: 20px;
+    display: flex;
+}
+
+.continer_pick_plan_cols {
+    width: 360px;
+    /* height: 440px; */
+    position: relative;
+    background-color: bla;
+    border-radius: 30px;
+    margin: 15px; 
+    border: 1px solid  rgba(91, 91, 91, 1); ;
+  
+
+}
+.pick_plan_info{
+    position: relative;
+    top: 30px;
+    height: 280px;
+}
+
+.pick_plan_info>.div1 {
+    width: 360px;
+    height: 60px;
+    position: relative;
+    left: 20px;
+    font-family: IBM Plex Sans;
+    font-size: 38px;
+    color: rgba(52, 152, 219, 1);
+    font-weight: bold;
+    display: flex;
+}
+.pick_plan_info>.div1>div {
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    color: rgba(132, 212, 244, 1);
+    font-weight: bold;
+    position: relative;
+    top: 7px;
+
+
+}
+
+.pick_plan_info>.div2 {
+    width: 360px;
+    height: 116px;
+    position: relative;
+    left: 20px;
+    font-family: heebo;
+    font-size: 20px;
+    color: rgba(91, 91, 91, 1);
+
+}
+.pick_plan_info>.div3 {
+   display: flex;
+}
+.pick_plan_info>.div3>.div31 {
+     width: 100px;
+    height: 47px;
+    position: relative;
+    left: 20px;
+    font-family: IBM Plex Sans;
+    font-size: 38px;
+    color: rgba(52, 152, 219, 1);
+    font-weight: bold;
+}
+.pick_plan_info>.div3>.div32 {
+  
+    position: relative;
+    top: 15px;
+    left: 25px;
+    font-family: heebo;
+    font-size: 25px;
+    color: rgba(150, 150, 150, 1);
+    font-weight: bold;
+}
+
+
+.plan{
+
+height: 250px;
+border-top: 1px solid;
+}
+.plan>p{
+       position: relative;
+    left: 30px;
+    top: 30px;
+    font-family: heebo;
+    font-size: 20px;
+    color: rgba(52, 152, 219, 1);
+    
+}
+
+.plan>ul{
+    position: relative;
+    top: 20px;
+    top: 30px;
+    font-family: heebo;
+    font-size: 20px;
+    color: rgba(91, 91, 91, 1);
+    list-style: url("../images/checkmark-circle.png");
+}
+
+.methode > p{
+justify-self: center;
+}
+.methode {  
+    width: 320px;
+    height: 200px;
+}
+
+
+.button_1_plan {
+    height: 48px;
+    width: 320px;
+    font-size: 20px;
+    color:white;
+    font-family: Heebo;
+    font-size: 15px;
+    border: 1px solid #FF6F61;
+    background-color:  #FF6F61;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    left: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.button_1_plan>div {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    right: 90px;
+    top: 14px;
+}
+
+.button_1_plan>P {
+    position: absolute;
+    left: 90px;
+}
+
+
+.button_2_plan {
+    height: 48px;
+    width: 320px;
+    font-size: 20px;
+    color: #FF6F61;
+    font-family: Heebo;
+    font-size: 15px;
+    border: 1px solid #FF6F61;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    left: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.button_2_plan>div {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    right: 90px;
+    top: 14px;
+}
+
+.button_2_plan>P {
+    position: absolute;
+    left: 90px;
+}
+
+a {
+    text-decoration: none;
+}
