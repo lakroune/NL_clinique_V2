@@ -28,10 +28,12 @@
                             <div class="page"><a href="about.html">About</a></div>
                         </div>
                         <div class="item">
-                            <div class="page">Doctors</div>
+                        
+                            <div class="page"><a href="doctors.html">Doctors</a></div>
+
                         </div>
                         <div class="item">
-                            <div class="page">Services</div>
+                            <div class="page"><a href="services.html">Services</a></div>
                         </div>
                     </div>
                 </div>
@@ -60,23 +62,27 @@
                             </div>
                         </div>
                         <div class="div_button_contact_appoi">
-                            <div class="book_appoi_btn">
+                            <a href="contact.html">
+                                <div class="book_appoi_btn">
                                 <div class="btn">
                                     <div class="text">Book Appointment</div>
                                     <div class="icon"> <img src="images/arrow-right.png" alt=""></div>
                                 </div>
                             </div>
+                            </a>
                             <p>or</p>
-                            <div class="contact_btn">
+                           <a href="contact.html">
+                             <div class="contact_btn">
                                 <div class="text">Contact Us</div>
                             </div>
+                           </a>
                         </div>
                     </div>
                     <div class="div_open_hours">
                         <div class="logo_hours"> <img src="images/clock.png" alt="clock"></div>
                         <div class="text_hours">
                             <ul>
-                                <li>Open Hours</li>
+                                <li>   <b>Open Hours</b></li>
                                 <li>Mon - Fri | 08:00 AM to 05:00 PM </li>
                                 <li>Sat - sun | 09:00 AM to 03:00 PM </li>
                             </ul>
@@ -110,9 +116,8 @@
                             </div>
                             <div class="select">
                                 <select name="Doctor Type" id="1">
-                                    <option value=""> Doctor Type</option>
-                                    <option value="">1</option>
-                                    <option value="">1</option>
+                                    <option value=""> Doctor Name</option>
+                                
                                 </select>
                             </div>
                         </div>
@@ -124,9 +129,8 @@
                             </div>
                             <div class="select">
                                 <select name="Doctor Type" id="1">
-                                    <option value=""> Doctor Type</option>
-                                    <option value="">1</option>
-                                    <option value="">1</option>
+                                    <option value=""> Date</option>
+                
                                 </select>
                             </div>
                         </div>
@@ -136,7 +140,7 @@
                             </div>
                             <div class="select">
                                 <select name="Doctor Type" id="1">
-                                    <option value=""> Doctor Type</option>
+                                    <option value=""> Time</option>
                                     <option value="">1</option>
                                     <option value="">1</option>
                                 </select>
@@ -205,7 +209,7 @@
                             <div class="text">Vice Director of Wellness Hospital</div>
                         </div>
                     </div>
-                    <a href="">
+                    <a href="about.html">
                         <div class="button">
                             <p> More About Us</p>
                             <div>
@@ -397,7 +401,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="">
+                <a href="services.html">
                     <div class="button">
                         <p>See More Services</p>
                         <div class="image"> <img src="images/arrow-right.png" alt="see more"></div>
@@ -642,14 +646,14 @@
                 </div>
                 <a href="">
                     <div class="button">
-                        <p>See More Doctors</p>
+                        <p>See More Plan</p>
                         <div class="image"> <img src="images/arrow-right.png" alt="see more"></div>
                     </div>
                 </a>
             </div>
         </section>
 
-        <section class="book_appoi">
+      <section class="book_appoi">
         <div class="fream_book_appoi">
             <div class="box">
                 <div class="book_appoi_title">
@@ -659,19 +663,28 @@
                 <div class="fream_input">
                     <div class="fream_input_cols">
                         <p>name</p>
-                        <input type="text">
+                        <input type="text" placeholder="Name">
                         <p>Doctor Type</p>
-                        <select name="Doctor Type" id="Doctor Type"> <option value="1">Doctor Type</option></select>
-                        <p>Docter name</p>
-                        <input type="text">
+                        <select name="Doctor Type" id="Doctor Type">
+                            <option value="1">Doctor Type</option>
+                        </select>
+                        <p>Date</p>
+                        <select name="Doctor Type" id="Doctor Type">
+                            <option value="1">Choose Date</option>
+                        </select>
+
                     </div>
                     <div class="fream_input_cols">
-                        <p>name</p>
-                        <input type="text">
-                        <p>Docter name</p>
-                        <input type="text">
-                        <p>Docter name</p>
-                        <input type="text">
+                        <p>Email</p>
+                        <input type="text" placeholder="Email">
+                        <p>Doctor Name</p>
+                        <select name="Doctor Type" id="Doctor Name">
+                            <option value="1">Choose Doctor Name</option>
+                        </select>
+                        <p>Time</p>
+                         <select name="" id="Choose Time">
+                            <option value="1">Choose Time</option>
+                        </select>
                     </div>
 
 
@@ -680,7 +693,7 @@
                     <p>Description</p>
                     <textarea name="Description" id="1"> Description</textarea>
                 </div>
-                 <a href="">
+                <a href="#" >
                     <div class="button_bool_appoi">
                         <p>Send</p>
                         <div class="image"> <img src="images/arrow-righth.png" alt="see more"></div>
@@ -691,14 +704,13 @@
 
     </section>
 
-
     
     </main>
 
 
 
       <!-- footer de NL clinique    -->
-    <footer>
+ <footer>
         <div class="footer">
             <div class="logo-with-news">
 
@@ -710,7 +722,7 @@
                 <div class="news-mail">
                     <div class="footer-news-mail-add_email">
                         <form action="#">
-                            <input class="footer-news-mail-add_email-input" type="text" placeholder="Email Address" >
+                            <input class="footer-news-mail-add_email-input" type="text" placeholder="Email Address">
                             <input class="footer-news-mail-add_email-submit" value="Subscribe" type="submit">
                         </form>
                     </div>
@@ -723,10 +735,13 @@
 
                 <div class="footer-news-mail-social-media">
 
-                    <div class="image-social-media"> <a href="#"> <img src="images/WhatsApp.png" alt="WhatsApp"></a></div>
-                    <div class="image-social-media"> <a href="#"><img src="images/Facebook.png" alt="Facebook"></a></div>
-                    <div class="image-social-media"> <a href="#"></a><img src="images/Instagram.png" alt="Instagram"></div>
-                    
+                    <div class="image-social-media"> <a href="#"> <img src="images/WhatsApp.png" alt="WhatsApp"></a>
+                    </div>
+                    <div class="image-social-media"> <a href="#"><img src="images/Facebook.png" alt="Facebook"></a>
+                    </div>
+                    <div class="image-social-media"> <a href="#"></a><img src="images/Instagram.png" alt="Instagram">
+                    </div>
+
 
                 </div>
 
@@ -742,41 +757,46 @@
                             <li>
                                 <h3>Quick Links</h3>
                             </li>
-                            <li><a href="">home</a></li>
-                            <li><a href="">home</a></li>
-                            <li><a href="">home</a></li>
-                            <li><a href="">home</a></li>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">About Me</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Blog</a></li>
                         </ul>
                     </div>
                     <div class="quick-links">
                         <ul>
                             <li>
-                                <h3>Quick Links</h3>
+                                <h3>Work Category</h3>
                             </li>
-                            <li><a href="">home</a></li>
-                            <li><a href="">home</a></li>
-                            <li><a href="">home</a></li>
-                            <li><a href="">home</a></li>
+                            <li><a href="#">Architecture</a></li>
+                            <li><a href="#">Nature</a></li>
+                            <li><a href="#">Modelling</a></li>
+                            <li><a href="#">Event</a></li>
+                            <li><a href="#">Branding</a></li>
                         </ul>
                     </div>
                     <div class="quick-links">
                         <ul>
                             <li>
-                                <h3>Quick Links</h3>
+                                <h3>Legal</h3>
                             </li>
-                            <li><a href="">home</a></li>
-                            <li><a href="">home</a></li>
-                            <li><a href="">home</a></li>
-                            <li><a href="">home</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                            <li><a href="#">Shipping Policy</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Services</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="div2-footer-location">
-                    
+
                     <ul>
-                        <li><h3>Location</h3></li>
-                        <li>Surabaya</li> 
-                        <li><p>Jl. Danau Jonge 12, Mayjend Sungkono, Surabaya</p></li>
+                        <li>
+                            <h3>Location</h3>
+                        </li>
+                        <li>Surabaya</li>
+                        <li>
+                            <p>Jl. Danau Jonge 12, Mayjend Sungkono, Surabaya</p>
+                        </li>
                     </ul>
                 </div>
 

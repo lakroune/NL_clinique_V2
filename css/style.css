@@ -182,7 +182,7 @@
     width: 335px;
     height: 48px;
     color: rgba(255, 255, 255, 1);
-    background-color: rgba(94, 224, 136, 1);
+    background-color: rgba(94, 224, 135, 0.591);
     border: 2px solid #2ECC71;
     position: relative;
     top: 0px;
@@ -190,6 +190,7 @@
     border-bottom-right-radius: 0px;
     text-align: center;
     font-family: Heebo;
+    font-size: 24px;
 
 }
 
@@ -237,7 +238,7 @@ p{
 
 }
 
-.continer_hero>.zone_text>.div_more_than_medicine>.div_button_contact_appoi>.book_appoi_btn {
+.continer_hero>.zone_text>.div_more_than_medicine>.div_button_contact_appoi>a>.book_appoi_btn {
     width: 267px;
     height: 66px;
     background-color: rgba(255, 111, 97, 1);
@@ -247,12 +248,12 @@ p{
      font-family: Heebo;
 }
 
-.continer_hero>.zone_text>.div_more_than_medicine>.div_button_contact_appoi>.book_appoi_btn>.btn {
+.continer_hero>.zone_text>.div_more_than_medicine>.div_button_contact_appoi>a>.book_appoi_btn>.btn {
     display: flex;
     align-items: center;
 }
 
-.continer_hero>.zone_text>.div_more_than_medicine>.div_button_contact_appoi>.book_appoi_btn>.btn>.text {
+.continer_hero>.zone_text>.div_more_than_medicine>.div_button_contact_appoi>a>.book_appoi_btn>.btn>.text {
     width: 231px;
     color: rgba(250, 250, 250, 1);
     text-align: center;
@@ -265,7 +266,7 @@ p{
 
 }
 
-.continer_hero>.zone_text>.div_more_than_medicine>.div_button_contact_appoi>.book_appoi_btn>.btn>.icon {
+.continer_hero>.zone_text>.div_more_than_medicine>.div_button_contact_appoi>a>.book_appoi_btn>.btn>.icon {
     width: 32px;
     height: 32px;
     text-align: center;
@@ -277,7 +278,7 @@ p{
 
 }
 
-.continer_hero>.zone_text>.div_more_than_medicine>.div_button_contact_appoi>.book_appoi_btn>.btn>.icon>img {
+.continer_hero>.zone_text>.div_more_than_medicine>.div_button_contact_appoi>a>.book_appoi_btn>.btn>.icon>img {
     width: 32px;
     height: 32px;
     text-align: center;
@@ -291,13 +292,11 @@ p{
 
 .continer_hero>.zone_text>.div_more_than_medicine>.div_button_contact_appoi>p {
     color: rgba(250, 250, 250, 1);
-    margin-left: 9px;
-    margin-right: 8px;
-    margin-top: 20px;
+    margin: 20px 30px;
 
 }
 
-.continer_hero>.zone_text>.div_more_than_medicine>.div_button_contact_appoi>.contact_btn {
+.continer_hero>.zone_text>.div_more_than_medicine>.div_button_contact_appoi>a>.contact_btn {
     width: 179px;
     height: 64px;
     color: rgba(250, 250, 250, 1);
@@ -310,7 +309,7 @@ p{
 
 }
 
-.continer_hero>.zone_text>.div_more_than_medicine>.div_button_contact_appoi>.contact_btn>.text {
+.continer_hero>.zone_text>.div_more_than_medicine>.div_button_contact_appoi>a>.contact_btn>.text {
     color: rgba(250, 250, 250, 1);
     text-align: center;
     position: relative;

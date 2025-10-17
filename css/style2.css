@@ -49,7 +49,7 @@
 }
 
 .title_our_doctors_titre {
-    width: 285px;
+    width: 350px;
     height: 140px;
     position: relative;
     top: 20px;
@@ -953,4 +953,40 @@ height: 36px;}
     font-family: heebo;
     font-size: 16px;
     width: 260px;
+}
+
+
+.continer_doctor_plan{
+    display: grid;
+    grid-template-columns:repeat(3,auto);
+    grid-template-rows: repeat(2,auto);
+    height: 960px;
+    justify-self: auto;
+}
+.continer_doctor_plan>div{
+    height: 300px;
+}
+
+.title_pick_plan_titre{
+    height: 200px;
+}
+.masque{opacity: 0;}
+.display{
+    display: none;
+}
+.height{
+
+    height: 650px;
+}
+.height1{
+
+    height: 800px;
+}
+.titre_sup{
+    
+    font-family:  IBM Plex Sans;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    justify-self: center;
 }
