@@ -1030,3 +1030,9 @@ a {
     font-weight: bold;
     justify-self: center;
 }
+
+body {
+  justify-content: center;
+  align-items: center; 
+  background-color: #F4F8FB; 
+}
