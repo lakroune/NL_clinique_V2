@@ -105,8 +105,9 @@
                             <div class="select">
                                 <select name="Doctor Type" id="1">
                                     <option value=""> Doctor Type</option>
-                                    <option value="">1</option>
-                                    <option value="">1</option>
+                                     <option value="Surgeon">Surgeon</option>
+                                <option value="CardiologistInternist">Internist</option>
+                                <option value="Cardiologist">Cardiologist</option>
                                 </select>
                             </div>
                         </div>
@@ -117,7 +118,11 @@
                             <div class="select">
                                 <select name="Doctor Type" id="2">
                                     <option value=""> Doctor Name</option>
-
+                                    <option value="Choose">Choose Doctor Name</option>
+                                    <option value=" Giusi Marjut"> Giusi Marjut</option>
+                                    <option value="Micol Efigenia">Micol Efigenia</option>
+                                    <option value=" Freyr Johano"> Freyr Johano</option>
+                                    <option value=" Irma Winnifred"> Irma Winnifred</option>
                                 </select>
                             </div>
                         </div>
@@ -128,9 +133,9 @@
                                 <img src="images/calendar.png" alt="Doctor Type">
                             </div>
                             <div class="select">
-                                <select name="Doctor Type" id="3">
+                                <select name="Dateve" id="3">
                                     <option value=""> Date</option>
-
+                                    <option value="">12/12/1111</option>
                                 </select>
                             </div>
                         </div>
@@ -139,7 +144,7 @@
                                 <img src="images/clock1.png" alt="Doctor Type">
                             </div>
                             <div class="select">
-                                <select name="Doctor Type" id="4">
+                                <select name="timeee" id="4">
                                     <option value=""> Time</option>
                                     <option value="">1</option>
                                     <option value="">1</option>
@@ -687,62 +692,61 @@
         </div>
 
         <div class="book_appoi">
+            <div class="titre_sup">Book an appointment</div>
             <div class="fream_book_appoi">
-                <form action="#">
-                    <div class="box">
-                        <div class="book_appoi_title">
-                            <p> Book an appointment</p>
-                        </div>
-                        <div class="book_appoi_title2">Book Your Appointment by Filling in This Form Below</div>
-                        <div class="fream_input">
-                            <div class="fream_input_cols">
-                                <p>name</p>
-                                <input type="text" placeholder="Name">
-                                <p>Doctor Type</p>
-                                <select name="Type" id="Type">
-                                    <option value="select">Doctor Type</option>
-                                    <option value="Surgeon">Surgeon</option>
-                                    <option value="CardiologistInternist">Internist</option>
-                                    <option value="Cardiologist">Cardiologist</option>
-                                </select>
-                                <p>Date</p>
-                                <!-- <select name="Choose Date" id="Date">
+                <form action="#" class="box">
+                    <div class="book_appoi_title display">
+                        <p> Book an appointment</p>
+                    </div>
+                    <div class="book_appoi_title2">Book Your Appointment by Filling in This Form Below</div>
+                    <div class="fream_input">
+                        <div class="fream_input_cols">
+                            <p>name</p>
+                            <input type="text" placeholder="Name">
+                            <p>Doctor Type</p>
+                            <select name="Type" id="Type">
+                                <option value="select">Doctor Type</option>
+                                <option value="Surgeon">Surgeon</option>
+                                <option value="CardiologistInternist">Internist</option>
+                                <option value="Cardiologist">Cardiologist</option>
+                            </select>
+                            <p>Date</p>
+                            <!-- <select name="Choose Date" id="Date">
                                 <option value="1">Choos Date</option>
                             </select> -->
-                               <input type="date" value="2025-10-17">
+                            <input type="date" value="2025-10-17">
 
-                            </div>
-                            <div class="fream_input_cols">
-                                <p>Email</p>
-                                <input type="text" placeholder="Email">
-                                <p>Doctor Name</p>
-                                <select name="Doctor Name" id="Name">
-                                    <option value="Choose">Choose Doctor Name</option>
-                                    <option value=" Giusi Marjut"> Giusi Marjut</option>
-                                    <option value="Micol Efigenia">Micol Efigenia</option>
-                                    <option value=" Freyr Johano"> Freyr Johano</option>
-                                    <option value=" Irma Winnifred"> Irma Winnifred</option>
-                                </select>
-                                <p>Time</p>
-                                <!-- <select name="Time" id="Time">
+                        </div>
+                        <div class="fream_input_cols">
+                            <p>Email</p>
+                            <input type="text" placeholder="Email">
+                            <p>Doctor Name</p>
+                            <select name="Doctor Name" id="Name">
+                                <option value="Choose">Choose Doctor Name</option>
+                                <option value=" Giusi Marjut"> Giusi Marjut</option>
+                                <option value="Micol Efigenia">Micol Efigenia</option>
+                                <option value=" Freyr Johano"> Freyr Johano</option>
+                                <option value=" Irma Winnifred"> Irma Winnifred</option>
+                            </select>
+                            <p>Time</p>
+                            <!-- <select name="Time" id="Time">
                                 <option value="1">Choose Time</option>
                             </select> -->
-                                <input type="time" name="time" id="times">
-                            </div>
+                            <input type="time" name="time" id="times">
+                        </div>
 
 
-                        </div>
-                        <div class="textarea">
-                            <p>Description</p>
-                            <textarea name="Description" id="9"> Description</textarea>
-                        </div>
-                        <a href="#">
-                            <div class="button_bool_appoi">
-                                <p>Send</p>
-                                <div class="image"> <img src="images/arrow-righth.png" alt="see more"></div>
-                            </div>
-                        </a>
                     </div>
+                    <div class="textarea">
+                        <p>Description</p>
+                        <textarea name="Description" id="text2"> Description</textarea>
+                    </div>
+
+                    <button class="button_bool_appoi">
+                        <p>Send</p>
+                        <div class="image"> <img src="images/arrow-righth.png" alt="see more"></div>
+                    </button>
+
                 </form>
             </div>
 
